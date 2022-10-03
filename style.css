@@ -1,1 +1,89 @@
-font-family: 'Zilla Slab', serif;
+*{
+    margin:0;
+    padding:0;
+}
+
+.main-header {
+    background-color: rgb(161, 33, 99);
+    color: aliceblue;
+    padding: 15px;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    border-bottom-color: rgb(27, 103, 169);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.main-header ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 300px;
+}
+
+.main-header li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.main-header a {
+    color: aliceblue;
+}
+
+.bg-images {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.image-1 {
+    background-image: url(pictures/dallas1.jpg);
+    background-attachment: fixed;
+}
+
+.image-2 {
+    background-image: url(pictures/dallas2.jpg);
+    background-attachment: fixed;
+}
+
+.image-3 {
+    background-image: url(pictures/dallas3.jpg);
+}
+
+
+.content {
+    
+    background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    padding: 30px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.content h1 {
+    color: rgb(224, 219, 219);
+}
+
+.content2{
+    background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    padding: 30px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+
+}
+
+
